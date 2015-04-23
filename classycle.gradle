@@ -1,5 +1,5 @@
 // Based on https://github.com/gradle/gradle/blob/master/gradle/classycle.gradle
-subprojects {
+allprojects {
     ext.useClassycle = { params = [:] ->
         def excludePatterns = params.exclude ?: []
 
